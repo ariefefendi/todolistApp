@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background: #f9f7f7;
+  font-family: 'Poppins', sans-serif;
+}
+/* cursor */
+.cursor{
+  cursor: pointer;
+}
+/* -- */
+/* sweetalert*/
+div#swal2-html-container {
+  padding-top: 10px;
+}
+/*  */
+nav.navbar {
+  background-color: #16ABF8 !important;
+}
+button.btn.btn-sm.btn.btn-outline-secondary {
+  border: none;
+}
+.fa-White>svg>path{
+  stroke: white;
+}
+
+/* button back */
+button.btn.btn-sm.pe-0.btn.btn-outline-secondary:hover {
+    background-color: transparent;
+    color: gray;
+}
+/* -- */
+
+/* button Arrows Sort */
+.btn-circle.btn-xl {
+  width: 42px;
+  height: 42px;
+  padding: 3px 3px;
+  border-radius: 35px;
+  line-height: 1.33;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+#ArrowsSort:hover {
+  background-color: #f2f2f3 !important;
+}
+#ArrowsSort::after{
+  display: none !important;
+}
+#ArrowsSort:focus {
+  background-color: #f2f2f3 !important;
+}
+svg#checkdropdown {
+  padding-left: 0px;
+  margin-left: 3.5em;
+}
+/* end ArrowsSort */
+
+/*  style todo item */
+div#btnTodoItem>#btnTodoItemEdit,
+div#btnTodoItem>#btnTodoItemDelete,
+div#btnTodoItem>input,
+div#btnTodoItem>span,
+button#btnTodoTitleEdit {
+  background-color: white;
+  border: none;
+  border-color: white;
+}
+button#btnTodoTitleEdit {
+    background-color: transparent;
+}
+.form-check-input {
+  width: 1.4em;
+  height: 1.4em;
+  margin-top: -.3em;
+}
+button#btnTodoItemEdit {
+  padding-top: 14px !important;
+}
+/* --- */
+
+/* tambah list item */
+.dropdown-toggle::after {
+  display: none;
+}
+#dropdown-priority{
+  opacity: 100% !important
+}
+#dropdown-priority:focus{
+  color: var(--bs-gray-dark) !important
+}
+#dropdown-priority:hover{
+  border-color: var(--bs-info) !important
+}
+/* -- */
+
+button:focus:not(a), input:focus:not(a){
+  outline: 3px solid transparent !important;
+  color: #dfeafb;
+  opacity: 65% !important;
+  box-shadow: none !important;
+}
+.font-18 { font-size: 18px }
+.font-24 { font-size: 24px }
+.font-36 { font-size: 36px }
+.fw-white { color: #FFFFFF; }
+.fw-600 { font-weight: 600; }
+.fw-500 { font-weight: 500; }
+.fw-400 { font-weight: 400; }
+
+
+@media (max-width: 991.98px) {
+  .font-mobile-20{
+    font-size: 20px;
+  }
+  svg#todolistempty {
+    width: 285px;
+    align-content: center;
+  }
+}
